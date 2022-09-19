@@ -20,7 +20,7 @@ dqn_model_path = os.path.join("saved_models", "dqn")
 
 def make_output_dirs():
     os.makedirs(log_path, exist_ok=True)
-    # os.makedirs(a2c_model_path, exist_ok=True)
+    # os.makedirs(dqn_model_path, exist_ok=True)
 
 
 def main():
